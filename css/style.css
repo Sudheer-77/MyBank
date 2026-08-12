@@ -1,0 +1,197 @@
+```css
+/* ================= GENERAL ================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    padding: 100px 0;
+    background: #f4f8ff;
+    min-height: 600px;
+}
+
+.hero-section h1 {
+    line-height: 1.2;
+}
+
+.hero-section .lead {
+    color: #555;
+    max-width: 550px;
+}
+
+
+/* ================= BANK CARD ================= */
+
+.bank-card {
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 450px;
+    margin: auto;
+}
+
+.bank-card small {
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.card-number {
+    font-size: 23px;
+    letter-spacing: 3px;
+}
+
+
+/* ================= SERVICES ================= */
+
+.service-card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e7f0ff;
+    color: #0d6efd;
+    border-radius: 50%;
+    font-size: 28px;
+}
+
+
+/* ================= WHY SECTION ================= */
+
+.why-section {
+    background: #f8f9fa;
+}
+
+.feature-item {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.feature-item > i {
+    font-size: 30px;
+    color: #0d6efd;
+}
+
+.feature-item h5 {
+    margin-bottom: 5px;
+}
+
+.feature-item p {
+    color: #666;
+}
+
+
+/* ================= SECURITY BOX ================= */
+
+.security-box {
+    background: white;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.security-box > i {
+    font-size: 80px;
+    color: #0d6efd;
+}
+
+
+/* ================= CTA ================= */
+
+.cta-section {
+    background: #0d6efd;
+    color: white;
+    padding: 60px 20px;
+    border-radius: 20px;
+}
+
+.cta-section p {
+    margin: 15px 0 25px;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer-link {
+    color: #adb5bd;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .hero-section .lead {
+        margin: auto;
+    }
+
+    .bank-card {
+        margin-top: 30px;
+    }
+
+    .feature-item {
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .hero-section h1 {
+        font-size: 36px;
+    }
+
+    .card-number {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .bank-card {
+        padding: 20px;
+    }
+
+}
+```
